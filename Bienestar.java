@@ -12,6 +12,11 @@ public class Bienestar{
 
     if(edad<18){
       System.out.println("No puedes entrar aunque tengas sed de la mala");
+while(edad<18){
+  System.out.println("Ha pasado un año");
+  edad=edad+1;
+  System.out.println(edad);
+}
     }
     else{
       System.out.println("Bienvenide... mediecita o miedo?");
