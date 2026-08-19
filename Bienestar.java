@@ -10,6 +10,7 @@ public class Bienestar{
     int edad = 2026-year;
     System.out.println("Tu edad es: "+(edad));
 
+    for(int i = 0;edad<18;i++){
     if(edad<18){
       System.out.println("No puedes entrar aunque tengas sed de la mala");
 while(edad<18){
@@ -21,7 +22,8 @@ while(edad<18){
     else{
       System.out.println("Bienvenide... mediecita o miedo?");
     }
-
+    }
+System.out.println("Ya sali del FOR");
   }
 }
 
