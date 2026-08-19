@@ -11,7 +11,8 @@ public class Bienestar{
     System.out.println("Tu edad es: "+(edad));
 
     for(int i = 0;edad<18;i++){
-    if(edad<18){
+   System.out.println(i+": Es el valor de i");
+      if(edad<18){
       System.out.println("No puedes entrar aunque tengas sed de la mala");
 while(edad<18){
   System.out.println("Ha pasado un año");
